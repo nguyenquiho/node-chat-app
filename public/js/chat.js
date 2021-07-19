@@ -7,6 +7,10 @@ const $messageFormButton = $messageForm.querySelector('button')
 const $sendLocationButton = document.querySelector('#send-location')
 const $messages = document.querySelector('#messages')
 
+// const $messageBlock = document.querySelector('.message')
+// const $messageOf = $messageBlock.children()
+// console.log(messageOf)
+
 // Templates
 const messageTemplate = document.querySelector('#message-template').innerHTML
 const locationMessageTemplate = document.querySelector('#location-message-template').innerHTML
